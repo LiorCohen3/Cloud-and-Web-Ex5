@@ -51,7 +51,7 @@
             $img = $row["image"];
             echo '<div class="col-sm-6">';
             echo    '<div class="card">';
-            echo        '<img src="' . $img . '"class="rounded mx-auto d-block">';
+            echo        '<img src="' . $img . '"class="img-fluid rounded mx-auto d-block">';
             echo        '<div class="card-body">';
             echo        '<h5 class="card-title">' . $row["name"] . '</h5>';
             echo        '<h6 class="price">Price: '.$row["price"] . '</h6>';

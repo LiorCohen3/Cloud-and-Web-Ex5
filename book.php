@@ -28,8 +28,8 @@
         $img2 = $row["image2"];
         echo '<div class="col-sm-12">';
         echo    '<div class="card">';
-        echo        '<img src="' . $img1 . '"class="rounded mx-auto d-block">';
-        echo        '<img src="' . $img2 . '"class="rounded mx-auto d-block">';
+        echo        '<img src="' . $img1 . '"class="img-fluid rounded mx-auto d-block">';
+        echo        '<img src="' . $img2 . '"class="img-fluid rounded mx-auto d-block">';
         echo        '<div class="card-body">';
         echo        '<h5 class="card-title">' . $row["name"] . '</h5>';
         echo        '<h6 class="price">Price: '.$row["price"] . '</h6>';

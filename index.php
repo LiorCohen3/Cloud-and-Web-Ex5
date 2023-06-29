@@ -38,17 +38,6 @@
 <body>
     <div class="container">
         <h1>Books</h1>
-        <h4>Category:
-        <?php 
-            if (isset($_GET["category"])) 
-            {
-                echo $showcategories;
-            }
-            else
-            {
-                echo '"all"';
-            }
-        ?></h4>
         <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
         Category</button>
